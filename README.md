@@ -1,86 +1,151 @@
-# 📊 COVID-19 Data Analysis Dashboard | Power BI Project
+# 🦠 COVID-19 Data Analysis Dashboard
 
-This Power BI project analyzes global COVID-19 data using the dataset [COVID-19 Dataset by George Saavedra on Kaggle](https://www.kaggle.com/datasets/georgesaavedra/covid19-dataset). It presents key insights on case trends, deaths, recovery rates, and country-wise comparisons through interactive visualizations.
+An interactive Power BI dashboard for analyzing global COVID-19 trends, including confirmed cases, deaths, recoveries, active cases, and country-level comparisons.
 
----
+## 📌 Project Overview
+This project uses historical global COVID-19 data to explore the development and impact of the pandemic across countries and regions.
 
-## 🔍 Project Objective
+The dashboard provides interactive visualizations for:
 
-To explore, clean, analyze, and visualize the global impact of the COVID-19 pandemic using Power BI. The dashboard enables:
+* Global case trends
+* Death trends
+* Recovery trends
+* Country comparisons
+* Continental analysis
+* Time-based pandemic trends
 
-- Monitoring trends of confirmed, recovered, and death cases globally
-- Country-wise comparisons and performance
-- Time-series analysis of case evolution
-- Monthly and yearly filtering of pandemic impact
+The project demonstrates practical skills in **Power BI, Power Query, data transformation, and dashboard development**.
 
----
 
-## 📁 Dataset Description
+## 🎯 Objectives
+The project aims to:
 
-- **Source:** [Kaggle – COVID-19 Dataset](https://www.kaggle.com/datasets/georgesaavedra/covid19-dataset)
-- **Features Include:**
-  - `Date`
-  - `Country`
-  - `Confirmed`
-  - `Deaths`
-  - `Recovered`
-  - `Active`
-  - `New Cases`, `New Deaths`, `New Recovered`
-  - `WHO Region`
-  - `Median Age`
+* Analyze global COVID-19 trends
+* Compare countries and regions
+* Examine changes in confirmed cases and deaths over time
+* Analyze recovery and active cases
+* Create interactive visualizations
+* Demonstrate data storytelling using Power BI
 
----
 
-## 🛠️ Tools & Technologies
+## 📂 Dataset
+**Source:** COVID-19 Dataset by George Saavedra on Kaggle
 
-- **Power BI Desktop** – for data modeling & interactive dashboards  
-- **Power Query** – for data cleaning and transformation    
-- **Kaggle** – dataset source  
-- **GitHub** – version control and code sharing  
+### Main Fields
 
----
+* Date
+* Country
+* Confirmed
+* Deaths
+* Recovered
+* Active
+* New Cases
+* New Deaths
+* New Recovered
+* WHO Region
+* Median Age
 
-## 📈 Key Visualizations
 
-- **KPI Cards**: Total Confirmed (391M), Total Deaths (5M), New Cases (1M)  
-- **Pie Charts**: New Cases & Deaths by Continent  
-- **Line Chart**: Total Cases Over Time by Country  
-- **Bar Chart**: Total Cases by Country (Top 10)  
-- **Scatter Plot**: Median Age by Continent and Country
+## 🛠️ Technologies Used
 
----
+* Microsoft Power BI
+* Power Query
+* Data Modeling
+* Data Visualization
+* Kaggle Dataset
 
-## 🧼 Data Cleaning & Transformation
 
-Performed in Power Query:
-- Removed nulls and duplicates  
-- Converted data types  
-- Extracted `Year` and `Month` from date  
-- Added calculated metrics for active cases and growth rate
+## 🧹 Data Preparation
 
----
+Power Query was used for:
 
-## 📌 How to Use
+* Removing null values
+* Removing duplicate records
+* Correcting data types
+* Extracting year and month information
+* Creating analytical fields
+* Preparing data for visualization
 
-1. Download the `.pbix` file from this repository  
-2. Open it in **Power BI Desktop**  
-3. Use the filters to interact with the data (e.g., by Country, Date, Continent)  
-4. Explore trends and draw insights from the dashboard  
 
----
+## 📊 Dashboard Features
+### KPI Cards
+Displays key metrics including:
 
-## 🧠 Insights & Findings
+* Total Confirmed Cases
+* Total Deaths
+* New Cases
 
-- Asia had the highest number of new cases among all continents  
-- North America showed the highest total death count  
-- The United States recorded the highest total number of cases  
-- The dashboard visualizes age-wise impact using the Median Age metric
+### Time-Series Analysis
+Tracks changes in COVID-19 cases over time.
 
----
+### Country Comparison
+Compares total cases across countries.
 
-## 🔗 Dataset Credits
+### Continental Analysis
+Analyzes new cases and deaths across continents.
 
-- **Dataset Author:** George Saavedra  
-- **Kaggle Link:** [https://www.kaggle.com/datasets/georgesaavedra/covid19-dataset](https://www.kaggle.com/datasets/georgesaavedra/covid19-dataset)
+### Demographic Analysis
+Uses median age to explore demographic patterns across countries and regions.
 
----
+
+## 💡 Key Insights
+The dashboard highlights:
+
+* Differences in COVID-19 case volumes between regions.
+* Variation in death counts across continents.
+* The United States as one of the countries with the highest recorded case totals in the analyzed dataset.
+* Changes in cases and deaths over time.
+
+
+## 📁 Repository Structure
+
+```text
+COVID-19-TRACKER-DASHBOARD-POWER-BI/
+│
+├── COVID ANALYSIS TRACKER.pbix
+├── README.md
+└── LICENSE
+```
+
+## ▶️ How to Use
+
+1. Download or clone the repository.
+2. Install **Power BI Desktop**.
+3. Open:
+
+```text
+COVID ANALYSIS TRACKER.pbix
+```
+
+4. Use the available filters to explore the dataset by country, date, continent, and other dimensions.
+
+
+## 🎯 Skills Demonstrated
+
+* Power BI
+* Power Query
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* Data Visualization
+* Time-Series Analysis
+* Dashboard Design
+* Data Storytelling
+
+
+## 📚 Dataset Credit
+
+Dataset: **COVID-19 Dataset**
+
+Author: **George Saavedra**
+
+Source: Kaggle
+
+
+## 👩‍💻 Author
+
+**Kruti Gupta**
+
+GitHub: https://github.com/Kruti115
+
+LinkedIn: https://www.linkedin.com/in/kruti-gupta-data/
